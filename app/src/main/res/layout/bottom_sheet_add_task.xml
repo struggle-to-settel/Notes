@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Add task"
+        android:maxLines="2"
+        style="@style/editText"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:fontFamily="serif"
+        android:layout_margin="10dp"
+        android:id="@+id/edit_add_task"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:backgroundTint="@color/white"
+        android:id="@+id/btn_cancel"
+        android:fontFamily="serif"
+        android:layout_toStartOf="@+id/btn_add_task"
+        android:layout_marginEnd="20dp"
+        android:textColor="#F39746"
+        android:text="Cancel"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:backgroundTint="#F39746"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="serif"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/white"
+        android:id="@+id/btn_add_task"
+        android:layout_gravity="bottom"
+        android:text="Add Task"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tabUnSelectedIconColor">#131212</color>
+    <color name="tabSelectedIconColor">#FAB77D</color>
+    <color name="cardNight">#2B2B2B</color>
+</resources>
