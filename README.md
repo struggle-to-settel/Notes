@@ -10,7 +10,7 @@ You can delete them.<br>
 You can delete all the task or notes at once.<br>
 You can search for items in your list.
 
-#### Check out the "notes.apk" application at release section.
+#### Check out the "Notes.apk" application at release section.
 
 ##### Add Notes Tab
 <p>
